@@ -8,10 +8,14 @@
 
 #include "CNode.h"
 
-class CNodeValue : CNode
+class CNodeValue : public CNode
 {
 public:
-    CNodeValue(string value);
+    CNodeValue(double value);
+    string toString();
+    double calculate(bool* result);
+private:
+    double value;
 };
 
 

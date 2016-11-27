@@ -13,22 +13,10 @@ using namespace std;
 
 class CNode
 {
-protected:
-    double value;
-    CNode* right;
-    CNode* left;
-    string type;
 public:
-    string getType();
-    CNode();
-    CNode(CNode* left, CNode* right, double value);
-    ~CNode();
-    double getValue();
-    CNode* getRight();
-    CNode* getLeft();
-    string toString();
+    virtual string toString() = 0;
     //obliczba wartosc dzieci i zwraca ją, zaplikowawszy do swojego operatora
-    double calculate();
+    virtual double calculate(bool* result) = 0;
 };
 
 

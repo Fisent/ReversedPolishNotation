@@ -9,17 +9,24 @@
 #include "CNode.h"
 
 
-const string ADD = "addition";
-const string SUB = "substraction";
-const string MUL = "multiplication";
-const string DIV = "division";
+static const string ADD = "addition";
+static const string SUB = "substraction";
+static const string MUL = "multiplication";
+static const string DIV = "division";
 
-class CNodeOperator : CNode
+class CNodeOperator : public CNode
 {
 public:
-    CNodeOperator(CNode* left, CNode* right);
+    CNodeOperator(CNode* left, CNode* right, string operation);
     ~CNodeOperator();
-
+    string getOperation();
+    void setOperation(string operation);
+    string toString();
+    double calculate(bool* result);
+private:
+    string operation;
+    CNode* left;
+    CNode* right;
 };
 
 
