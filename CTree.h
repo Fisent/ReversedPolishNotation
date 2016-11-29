@@ -9,6 +9,8 @@
 #include "CNodes/CNode.h"
 #include <string>
 #include <vector>
+#include <map>
+
 
 class CTree
 {
@@ -16,11 +18,16 @@ private:
     CNode* root;
     std::string expression;
 public:
-    CTree(CNode* root);
+    map<string, double> * values;
+    CTree();
     ~CTree();
-    void generate(std::string s);
+    void generatePostfix(string input);
+    void generateInfix(string input);
     double calculate();
     string toString();
+    //zwraca tablice stringow
+    string* splitPostfix(string input, int* len);
+    static string* splitInfix(string input);
 
 };
 

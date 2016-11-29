@@ -4,6 +4,7 @@
 
 #include "CNodeValue.h"
 #include <sstream>
+#include <map>
 
 string CNodeValue::toString()
 {
@@ -13,14 +14,23 @@ string CNodeValue::toString()
     return toReturn;
 }
 
-CNodeValue::CNodeValue(double value)
+CNodeValue::CNodeValue(string value)
 {
     this->value = value;
 }
 
-double CNodeValue::calculate(bool* result)
+double CNodeValue::calculate(bool* result, std::map<string, double> &dict)
 {
     result = (bool* ) true;
-    return value;
+    if(dict.find(value) != dict.end())
+    {
+        return dict.at(value);
+    }
+    else
+    {
+        dict.operator[](value) = ask(value);
+        return dict.operator[](value);
+    }
 }
+
 

@@ -6,16 +6,17 @@
 #define REVERSEDPOLISHNOTATION_CNODEVALUE_H
 
 
+#include <map>
 #include "CNode.h"
 
 class CNodeValue : public CNode
 {
 public:
-    CNodeValue(double value);
+    CNodeValue(string value);
     string toString();
-    double calculate(bool* result);
+    double calculate(bool* result, std::map<string, double> &dict);
 private:
-    double value;
+    string value;
 };
 
 

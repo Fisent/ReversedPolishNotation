@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ReversedPolishNotation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ReversedPolishNotation">
+				<Option output="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/ReversedPolishNotation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversedPolishNotation"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ReversedPolishNotation/fast">
+				<Option output="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/ReversedPolishNotation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReversedPolishNotation/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j2 -f &quot;/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/CNodes/CNode.cpp">
+			<Option target="ReversedPolishNotation"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/CNodes/CNode.h">
+			<Option target="ReversedPolishNotation"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/CNodes/CNodeOperator.cpp">
+			<Option target="ReversedPolishNotation"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/CNodes/CNodeOperator.h">
+			<Option target="ReversedPolishNotation"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/CNodes/CNodeValue.cpp">
+			<Option target="ReversedPolishNotation"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/CNodes/CNodeValue.h">
+			<Option target="ReversedPolishNotation"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/CTree.cpp">
+			<Option target="ReversedPolishNotation"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/CTree.h">
+			<Option target="ReversedPolishNotation"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/main.cpp">
+			<Option target="ReversedPolishNotation"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/lukasz/CppProjects/ReversedPolishNotation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

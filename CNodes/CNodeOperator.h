@@ -22,7 +22,7 @@ public:
     string getOperation();
     void setOperation(string operation);
     string toString();
-    double calculate(bool* result);
+    double calculate(bool* result, std::map<string, double> &dict);
 private:
     string operation;
     CNode* left;
