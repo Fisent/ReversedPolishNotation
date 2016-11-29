@@ -9,10 +9,10 @@
 #include "CNode.h"
 
 
-static const string ADD = "addition";
-static const string SUB = "substraction";
-static const string MUL = "multiplication";
-static const string DIV = "division";
+static const string ADD = "+";
+static const string SUB = "-";
+static const string MUL = "*";
+static const string DIV = "/";
 
 class CNodeOperator : public CNode
 {

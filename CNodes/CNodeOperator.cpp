@@ -31,19 +31,19 @@ void CNodeOperator::setOperation(string operation)
 double CNodeOperator::calculate(bool* result, std::map<string, double> &dict)
 {
     result = (bool*) true;
-    if(operation == "addition")
+    if(operation == ADD)
     {
         return right->calculate(result, dict) + left->calculate(result, dict);
     }
-    if(operation == "substraction")
+    if(operation == SUB)
     {
         return right->calculate(result, dict) - left->calculate(result, dict);
     }
-    if(operation == "multiplication")
+    if(operation == MUL)
     {
         return right->calculate(result, dict) * left->calculate(result, dict);
     }
-    if(operation == "division")
+    if(operation == DIV)
     {
         return right->calculate(result, dict) / left->calculate(result, dict);
     }
@@ -55,9 +55,9 @@ string CNodeOperator::toString()
 {
     ostringstream stream1;
     stream1 << left->toString();
-    string toReturn = "<" + stream1.str() + ", ";
+    string toReturn = "(" + stream1.str() + operation;
     ostringstream stream2;
     stream2 << right->toString();
-    toReturn += stream2.str() + " " + operation + " >";
+    toReturn += stream2.str() + ")";
     return toReturn;
 }
