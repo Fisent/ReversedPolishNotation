@@ -33,16 +33,18 @@ void console()
         if(input == CLEAR) tree = new CTree();
         else if(input == POSTFIX)
         {
+            cin.ignore();
             string toEvaluate;
             cout << "Wpisz wyrazenie w postaci postfiksowej: ";
-            cin >> toEvaluate;
+            std::getline(cin, toEvaluate);
             tree->generatePostfix(toEvaluate);
         }
         else if(input == INFIX)
         {
+            cin.ignore();
             string toEvaluate;
             cout << "Wpisz wyrazenie w postaci infiksowej: ";
-            cin >> toEvaluate;
+            std::getline(cin, toEvaluate);
             tree->generateInfix(toEvaluate);
         }
         else if(input == CHANGEVARIABLE)
@@ -77,5 +79,9 @@ void console()
 int main()
 {
     console();
+
+    CTree* tree = new CTree();
+    tree->generatePostfix("a b+");
+    cout << tree->toString();
     return 0;
 }
