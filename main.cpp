@@ -59,7 +59,7 @@ void console()
         }
         else if(input == CALCULATE)
         {
-            cout << "wynik: " <<tree->calculate() << endl;
+            cout << "wynik: " << tree->calculate() << endl;
         }
         else if(input == PRINTTREE)
         {
@@ -81,7 +81,11 @@ int main()
     console();
 
     CTree* tree = new CTree();
-    tree->generatePostfix("a b+");
-    cout << tree->toString();
+    //tree->generatePostfix("a b+");
+    //tree->calculate();
+    //map<string,double> dict;
+    //dict["a"] = 3;
+    //cout << dict.at("a");
+    //cout << tree->values->operator[]("a");
     return 0;
 }

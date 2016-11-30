@@ -3,6 +3,7 @@
 //
 #include <sstream>
 #include <map>
+#include <iostream>
 #include "CNodeOperator.h"
 
 CNodeOperator::CNodeOperator(CNode *left, CNode *right, string operation)
@@ -14,8 +15,8 @@ CNodeOperator::CNodeOperator(CNode *left, CNode *right, string operation)
 
 CNodeOperator::~CNodeOperator()
 {
-    delete right;
-    delete left;
+    //delete right;
+    //delete left;
 }
 
 string CNodeOperator::getOperation()
@@ -30,6 +31,7 @@ void CNodeOperator::setOperation(string operation)
 
 double CNodeOperator::calculate(bool* result, std::map<string, double> &dict)
 {
+
     result = (bool*) true;
     if(operation == ADD)
     {

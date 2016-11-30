@@ -5,6 +5,7 @@
 #include "CNodeValue.h"
 #include <sstream>
 #include <map>
+#include <iostream>
 
 string CNodeValue::toString()
 {
@@ -24,12 +25,12 @@ double CNodeValue::calculate(bool* result, std::map<string, double> &dict)
     result = (bool* ) true;
     if(dict.find(value) != dict.end())
     {
-        return dict.at(value);
+        return dict[value];
     }
     else
     {
-        dict.operator[](value) = ask(value);
-        return dict.operator[](value);
+        dict[value] = ask(value);
+        return dict.at(value);
     }
 }
 

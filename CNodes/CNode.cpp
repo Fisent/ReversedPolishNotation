@@ -15,6 +15,7 @@ double CNode::ask(string value)
     cout << "Wpisz wartosc zmiennej " << value << ": ";
     double out;
     cin >> out;
+    return out;
 }
 
 CNode *CNode::generateInfix(string input)

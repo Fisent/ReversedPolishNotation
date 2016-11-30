@@ -18,13 +18,11 @@ CTree::CTree()
 
 CTree::~CTree()
 {
-    delete root;
     delete values;
 }
 
 void CTree::generatePostfix(std::string s)
 {
-    delete root;
     stack<CNode*>* st = new stack<CNode*>();
     int* length = new int();
     string* tab = splitPostfix(s, length);
@@ -61,6 +59,10 @@ void CTree::generatePostfix(std::string s)
             st->push(node);
         }
     }
+    if(st->size()!=0)
+    {
+        cout << "BLAD: w wyrazeniu pozostały"
+    }
     root = st->top();
     delete st;
 }
@@ -73,7 +75,7 @@ string CTree::toString()
 double CTree::calculate()
 {
     bool* result = (bool*) true;
-    root->calculate(result, *values);
+    return root->calculate(result, *values);
 }
 
 string* CTree::splitPostfix(string s, int* len)
